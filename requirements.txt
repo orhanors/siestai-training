@@ -1,0 +1,30 @@
+# Core LangChain packages
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.3.0
+langchain-google-genai>=0.3.0
+langchain-groq>=0.3.0
+langchain-ollama>=0.3.0
+
+# LangGraph
+langgraph>=0.2.0
+
+# Environment and utilities
+python-dotenv>=1.0.0
+
+# Database and vector storage
+psycopg>=3.0.0
+psycopg-pool>=3.0.0
+pgvector>=0.4.0
+
+# Rich console output
+rich>=13.0.0
+
+# Core Python packages (usually included, but good to specify)
+typing-extensions>=4.0.0
+pydantic>=2.0.0
+
+# Optional: Jupyter for notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
