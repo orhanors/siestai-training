@@ -32,7 +32,7 @@ def ingest_Chunks(graph, chunks, node_name, node_label):
         chunks: A list of dictionaries, each representing a file chunk with keys:
                      'chunkId', 'text', 'source', 'formItem', and 'chunkSeqId'.
         node_name: A string used to tag the chunk nodes.
-        node_label: The dynamic label for the chunk nodes.
+        node_label: Dynamic label for the chunk nodes.
     """
     merge_chunk_node_query = f"""
     MERGE (mergedChunk:{node_label} {{chunkId: $chunkParam.chunkId}})
